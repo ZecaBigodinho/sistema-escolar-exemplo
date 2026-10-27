@@ -6,5 +6,6 @@ class MainView(ctk.CTk):
 
     def __init__(self):
         super().__init__()
-        self.title("Sistema Escolar")
-        self.geometry("900x600")
+        self.title("Sistema Escolar — Turma 2º B")
+        self.geometry("1000x650")
+        self.minsize(800, 500)
